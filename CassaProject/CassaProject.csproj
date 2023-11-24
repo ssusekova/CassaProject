@@ -70,6 +70,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Controls\BaseNumDigTextBox.cs" />
+    <Compile Include="Controls\DigitTextBox.cs" />
     <Compile Include="Model\ETypeOfCassa.cs" />
     <Compile Include="Model\RecordInFileModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />

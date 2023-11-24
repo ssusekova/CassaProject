@@ -34,8 +34,10 @@ namespace CassaProject.Model
                 catch
                 {
                     MessageBox.Show("Не удалось сохранить данные в файл, обратитесь к разработчику", "Сообщение", MessageBoxButton.OK, MessageBoxImage.Error);
+                    return;
                 }
-                
+
+                MessageBox.Show("Данные успешно сохранены в файл", "Сообщение", MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
     }

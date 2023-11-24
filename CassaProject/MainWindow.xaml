@@ -84,7 +84,7 @@
                             Orientation="Vertical" 
                             Style="{StaticResource EncashmentStyle}">
                     <TextBlock Text="Номер сумки" Margin="0 5 0 5"/>
-                    <commonControls:NumericTextBox x:Name="CountOfBagTB" Width="100" 
+                    <commonControls:DigitTextBox x:Name="CountOfBagTB" Width="100" 
                                                    HorizontalAlignment="Left"
                                                    MaxLength ="2"
                                                    Text="{Binding CountOfBag}"/>
